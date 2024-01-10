@@ -1,20 +1,20 @@
-<h1>🤖 IADIRA</h1><br>
+# IADIRA 🤖 - Inteligencia artificial detectora de infecciones respiratorias agudas.
 
+## 🗞️ Introducción
+Este proyecto es un prototipo de inteligencia artificial enfocado a la detección de neumonía mediante radiografías de tórax. Representa una herramienta valiosa en el ámbito médico, ofreciendo precisión y velocidad en el diagnóstico.
 
-<h2>Introducción</h2>
-<p>Este es un prototipo de una inteligencia artificial, que radica en la detección de neumonía usando radiografías de torax, lo cual representa ser una herramienta con muchas ventajas en el ámbito médico para una detección con mucha calidad de precisión, pero tambien con mucha velocidad.<p>
+## Planteamiento del Problema 💪
+En diversas partes del mundo, las bajas temperaturas pueden desencadenar infecciones respiratorias agudas como la neumonía. Las personas, a menudo, evitan <b>acudir a centros médicos</b> por temor a costos, demoras o posibles incomodidades. Este proyecto busca abordar estos problemas al proporcionar una herramienta rápida y precisa para la detección de neumonía para brindar una mejor asistencia al médico profesional, para <b>optimizar</b> los tiempos de demora y una segunda fuente en el que puede guiarse para confirmar sus diagnósticos.
 
-<h2>Planteamiento del problema</h2>
-<p>Uno de los mayores problemas en este tipo de situación, es que en diferentes partes del mundo, las muy bajas temperaturas afectan de manera muy peligrosa a las personas, algo que puede ser causante de infecciones respiratorias agudas, como la neumonía, por lo que, en cadena de ello, las personas con bajos recursos, optan por automedicarse, y tomar la decisión de no ir a algún centro médico para no gastar recursos económicos, el temor de demorar demasiado tiempo para la detección de estas patologías, o la suposición de que se sentirá un gran dolor al momento de detectar síntomas de infecciones respiratorias agudas y adquirir un mal tratamiento.</p>
+## Investigación Propuesta 🔍
+Durante la investigación, se comparó el tiempo y la precisión de la detección de neumonía entre médicos radiólogos y la inteligencia artificial (IA). Algunos resultados incluyen:
 
-<h1>Investigación propuesta</h1>
-<p>Durante la elaboración del proyecto, estuve investigando sobre la importancia del proyecto, por lo que, llegué a recopilar los siguientes datos:<p>
 <ul>
-  <li>Comparación de tiempo estimado en la detección de neumonía con radiografías con radiologos certificados:</li>
+  <li>⚕️ <b>Comparación de tiempo estimado en la detección de neumonía con radiografías con radiologos certificados:</b></li>
   <p>Durante la investigación, el primer objetivo de investigación fué el tiempo que una radiólogo demora en detectar este tipo de patologías, y cuánto tiempo demora en hacerlo una IA, y los resultados fueron los siguientes:<p>
   <table>
     <tr>
-      <td>Sujeto de prueba</td>
+      <td>Entorno de prueba</td>
       <td>Médico radiólogo</td>
       <td>Inteligencia Artificial</td>
       <td>Resultado comparativo</td>
@@ -38,7 +38,7 @@
       <td>La IA es más rápida</td>
     </tr>
   </table>
-  <li>Comparación de precisión en el momento del análisis en radiografías:</li>
+  <li><b>🥇 Comparación de precisión en el momento del análisis en radiografías:</b></li>
   <p>Durante la investigación, una de las mayores prioridades es aumentar el nivel de precisión en la IA, para así tener un alto grado de confiabilidad, para lo cual, se obtuvo los siguientes resultados:<p>
   <table>
     <tr>
@@ -66,7 +66,7 @@
       <td>El médico radiologo es más preciso</td>
     </tr>
   </table>
-  <li>Estudio de resultados en entornos reales con radiografías reales:</li>
+  <li><b>✅ Estudio de resultados en entornos reales con radiografías reales:</b></li>
   <p>Gracias a la ayuda de una clínica privada, nos proporcionaron 5 radiografías de torax, 2 con <b>NEUMONÍA</b> y 3 <b>SIN NEUMONÍA</b>, por lo que, logramos obtener los resultados:</p>
   <ul>
     <li>Comparación de resultados de predicciones de la IA con radiografías de tórax con la IA en su primer etapa:</li>
@@ -109,8 +109,9 @@
       </tr>
     </table>
 </ul>
-<h2>Estructura de la IA</h2>
-  <p>Para llevar a cabo el entrenamiento de este proyecto, usamos <b>REDES NEURONALES CONVOLUCIONALES</b>, que nos permite usar diferentes tipos de filtros en imágenes para encontrar características en los datos.</p>
+
+## 🔨 Estructura de la IA
+Para llevar a cabo el entrenamiento de este proyecto, usamos <b>REDES NEURONALES CONVOLUCIONALES</b>, que nos permite usar diferentes tipos de filtros en imágenes para encontrar características en los datos.
     <table>
       <tr>
         <td>N° de capa</td>
@@ -192,14 +193,14 @@
       </tr>
     </table>
 
-<h2>Fuente de radiografías para el análisis</h2>
-<p>Para elaborar el proyecto, he entrenado a la IA usando un set de datos de la plataforma <a href="https://kaggle.com/">Kaggle</a> que me permitió tener a mi disposición una gran cantidad de radiografías para el análisis y segmentación de datos importantes.</p>
+## 📓 Fuente de radiografías para el análisis
+Para elaborar el proyecto, he entrenado a la IA usando un set de datos de la plataforma <a href="https://kaggle.com/">Kaggle</a> que me permitió tener a mi disposición una gran cantidad de <b>radiografías para el análisis</b> y segmentación de datos importantes.
 
-<h2>Conceptos a tener en cuenta</h2>
-<p>Durante el desarrollo del proyecto, se tuvo la preliminar idea de que, este proyecto será enteramente experimental, y que de ninguna manera se podría reemplazar el puesto de un médico certificado y con experiencia, ya que, esta IA tiende a aveces fallar, y, a pesar de que su precisión puede ser aumentada a más de un 99.3%, no garantiza los mejores resultados con lujos de datalle, por lo que, se recomienda usarlo como un asistente o una herramienta secundaria.</p>
+## Conceptos a tener en cuenta ⚠️
+Durante el desarrollo del proyecto, se tuvo la idea de que, este proyecto es puramente experimental, y que, de ninguna manera se podría <b>reemplazar</b> el puesto de un médico certificado y con experiencia, ya que, esta IA tiende a fallar aveces, y, a pesar de que su precisión puede ser aumentada a más de un 99.3%, no garantiza los mejores resultados con lujos de datalle, por lo que, se recomienda usarlo <b>como un asistente o una herramienta secundaria.</b>
 
-<h2>Requisitos para usarla</h2>
-<p>Durante su entrenamiento, el modelo fué entrenado con las capas indicadas anteriormente usando una GPU de Google (Tesla T4) por medio de <a href="https://colab.research.google.com">Google Colab</a>, pero el modelo puede ser ejecutado en una máquina cuya memoria RAM sea mayor a la de 4 GB, y una CPU estable.</p>
+## Requisitos para usarla 🔨
+Durante su entrenamiento, el modelo fué entrenado con las capas indicadas anteriormente usando una GPU de Google (Tesla T4) por medio de <a href="https://colab.research.google.com">Google Colab</a>, pero el modelo puede ser ejecutado en una máquina cuya memoria RAM sea mayor a la de 4 GB, y una CPU estable.
 
-<h2>Agradecimientos</h2>
-<p>Quiero dar las gracias a los médicos radiólogos que apoyaron al análisis del proyecto, y tambien a mi anterior equipo <i>Valletta</i> por darme la motivación de cada vez ser mejor.</p>
+## :handshake: Agradecimientos
+Quiero dar las gracias en especial a mi amigo <b>Andre Rafael Apaza Chura</b> por apoyarme a desarrollar el proyecto, a la clínica <b>Monte Sinaí</b>, <i>Juliaca</i> por brindarme las radiografías físicas sin ánimos de lucro para llevar a cabo mi investigación, a la clínica <b>Americana</b>, <i>Juliaca</i> por darme asistencia en el análisis de las placas radiográficas, y a la clínica del <b>Dr. Willy Pari</b> especializada en el diagnóstico por imágenes, por darnos asistencia en el análisis de las placas radiográficas.
