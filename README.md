@@ -1,3 +1,6 @@
+![Captura de pantalla - Dashboard](imagen_gui.png)
+---
+
 # IADIRA 🤖 - Inteligencia artificial detectora de infecciones respiratorias agudas.
 
 ## 🗞️ Introducción
